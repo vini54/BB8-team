@@ -1,0 +1,121 @@
+main {
+   background-image: url(../assets/imgs/Dots-8px.png);
+   background-size: cover;
+}
+.main-section h1 {
+   color: var(--color3);
+   font-weight: 500;
+}
+.btn-act {
+   width: 30%;
+   border: none;
+   border-radius: 5px;
+   background-color: #FDE5CA;
+   padding: 5px;
+   color: var(--color3);
+   font-weight: 600;
+}
+.main-section img.ill{
+   width: 65%;
+}
+.vec-dow {
+   text-align: center;
+   width: 40px;
+}
+.com-section {
+   background-color: #e8e8e840;
+}
+.com-head {
+   width: 50%;
+}
+.com-section h2{
+   color: var(--color3);
+   font-weight: 500;
+}
+.com-section div img{
+   width: 200px;
+}
+.prod-section h1{
+   color: var(--color3);
+   font-weight: 500;
+}
+.card-head {
+   height: 74px;
+   display: flex;
+   justify-content: space-between;
+}
+.ch1, .ch2, .ch3 {
+   border-radius: 10px;
+   padding: 20px;
+}
+.ch1 {
+   border: 1px solid var(--color5) !important;
+}
+.ch2 {
+   border: 1px solid var(--color6) !important;
+}
+.ch3 {
+   border: 1px solid var(--color7) !important;
+}
+.ch1 h2 {
+   color: var(--color5);
+}
+.ch2 h2 {
+   color: var(--color6);
+}
+.ch3 h2 {
+   color: var(--color7);
+}
+.test-section h1{
+   color: var(--color3);
+   font-weight: 400;
+}
+.test-section .card {
+   border: 1px solid var(--color3);
+   border-radius: 10px;
+}
+footer {
+   background-color: var(--color3);
+}
+footer .content2 a{
+   text-decoration: none;
+   color: #fff;
+}
+footer .bg-lit {
+   background-image: url(../assets/icons/logo-ligthn.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+@media (max-width: 767.98px) {
+   .main-section div input {
+      align-self: center;
+   }
+   .main-section img.ill, div .vec-dow{
+      display: none;
+   }
+   .com-head {
+      width: 100%!important;
+   }
+   .test-section h1{
+      width: 100% !important;
+   }
+   footer {
+      background-image: url(../assets/icons/logo-ligthn-25w.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      
+   }
+   footer .bg-lit{
+      display: none;
+   }
+}
+@media (max-width: 991.98px) {
+   .main-section img.ill{
+      width: 100%;
+   }
+   .com-section div img{
+      width: 148px;
+   }
+}

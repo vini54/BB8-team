@@ -1,0 +1,26 @@
+main {
+   background-image: url(../assets/imgs/BG-desktop.png);
+   background-size: cover;
+}
+.login-logo {
+   width: 120px;
+}
+main .container {
+   width: 320px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+}
+main span a {
+   color: var(--color3);
+   text-decoration: none;
+   font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+   main {
+      background-image: url(../assets/imgs/BG-mobile.png);
+   }
+}
