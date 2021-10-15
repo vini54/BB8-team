@@ -1,10 +1,14 @@
 main {
+   background-color: var(--main-bg);
    background-image: url(../assets/imgs/Dots-8px.png);
    background-size: cover;
 }
 .main-section h1 {
    color: var(--color3);
    font-weight: 500;
+}
+.main-section p{
+   color: var(--txt-55) !important;
 }
 .btn-act {
    width: 30%;
@@ -23,7 +27,7 @@ main {
    width: 40px;
 }
 .com-section {
-   background-color: #e8e8e840;
+   background-color: var(--bg-20);
 }
 .com-head {
    width: 50%;
@@ -32,12 +36,21 @@ main {
    color: var(--color3);
    font-weight: 500;
 }
+.com-section p{
+   color: var(--txt-full);
+}
 .com-section div img{
    width: 200px;
+}
+.prod-section .card{
+   background-color: var(--bg);
 }
 .prod-section h1{
    color: var(--color3);
    font-weight: 500;
+}
+.prod-section p{
+   color: var(--txt-55);
 }
 .card-head {
    height: 74px;
@@ -71,8 +84,12 @@ main {
    font-weight: 400;
 }
 .test-section .card {
+   background-color: var(--bg);
    border: 1px solid var(--color3);
    border-radius: 10px;
+}
+.test-section p, .test-section h4{
+   color: var(--txt-full);
 }
 footer {
    background-color: var(--color3);
@@ -86,6 +103,14 @@ footer .bg-lit {
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
+}
+#dark {
+   background-color: var(--txt-full);
+   color: var(--bg);
+   border: none;
+   padding: 5px 10px;
+   border-radius: 10px;
+   margin: 10px 0;
 }
 @media (max-width: 767.98px) {
    .main-section div input {
